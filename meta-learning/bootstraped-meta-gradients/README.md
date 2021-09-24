@@ -1,4 +1,4 @@
-This paper addresses two problems the way that meta-learning is currently done:
+This paper addresses two problems with the way that meta-learning is currently done:
 
 * Myopia - Traditional approaches can only roll out the learner-network for K steps. This leads to the bias that learning dynamics in the first K steps are the same as though later in training.
 * Ill-conditioning - The meta-weight gradients are calculated with the same loss that the student-learning is trained on. This means that if the loss landscape for the student-learner is ill-conditioned, the meta network will have the same problems.
